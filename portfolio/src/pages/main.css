@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    background-color: red;
+}
+
+.pic-box {
+    display: flex;
+}
+
+.pic-profile {
+    justify-content: center;
+}

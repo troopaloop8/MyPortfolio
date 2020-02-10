@@ -7,13 +7,13 @@ module.exports = {
   plugins: [
     
     `gatsby-plugin-react-helmet`,
+    "bootstrap",
     'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
-       
+        path: `${__dirname}/src/pages`,       
       }
     },
     `gatsby-transformer-remark`,
