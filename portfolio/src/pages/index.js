@@ -17,39 +17,40 @@ const IndexPage = () => (
       <div className='container'>
       <div className="tile is-ancestor">
   <div className="tile is-4 is-vertical is-parent is-flex">
-    <div className="tile is-child notification is-primary">
+    <div className="tile is-child notification ">
     <Image className='pic-profile' />
     </div>
-    <div className="tile is-child notification is-danger">
-    <h1 className='title' >Jonathan Troop</h1>
-    <p>Tech and futurism enthusiast.</p>
-    <p>Husband, father of two boys.</p>
-    <p>Often fat fingers posts.</p>
-    <p>Based in Fukuoka, Japan</p>
+    <div className="tile is-child notification has-text-black">
+    <h1 className='title has-text-black' >Jonathan Troop</h1>
+    <p className='profile-card'>Tech and futurism enthusiast.</p>
+    <p className='profile-card'>Husband, father of two boys.</p>
+    <p className='profile-card'>Often fat fingers posts.</p>
+    <p className='profile-card'>Based in Fukuoka, Japan</p>
       {/* <h2 className='subtitle'>Web Full Stack Student @ Lambda School</h2> */}
     </div>
   </div>
   <div className="tile is-parent">
-    <div className="tile is-child notification is-info">
-      <h1 className="title">Résumé:</h1>
-      <h2 className='subtitle'>Education:</h2>
-      <ul>
+    <div className="tile is-child notification has-text-black">
+      <h1 className=" resume-title">Résumé</h1>
+      <h2 className='resume-category'>Education</h2>
+      <ul className='resume'>
         <li>2003-2007: B.A. In Communications, East Asian Studies, and Japanese from University of Delaware</li>
         <li>2010-2012: M.A. Teaching English to Speakers of Other Languages from University of Delaware</li>
         <li>2019-Present: Web Full-Stack at Lambda School</li>
       </ul>
-      <br/>
-      <h2 className='subtitle'>Work Experience:</h2>
-      <ul>
+      
+      <h2 className='resume-category'>Work Experience</h2>
+      <ul className='resume'>
         <li>2007-2009: Taught English as a Foreign Language in Japan for the J.E.T. Program</li>
         <li>2010-2012: Research Assistant in University of Delaware School of Education</li>
         <li>2012-2018: Taught High School ESL, English, and History in Fairfax, VA and New Castle, DE</li>
       </ul>
-      <br/>
-      <h2 className='subtitle'>Programming Proficiencies:</h2>
-      <ul>
+      
+      <h2 className='resume-category'>Programming Proficiencies</h2>
+      <ul className='resume'>
         <li>HTML</li>
         <li>CSS/LESS/SASS</li>
+        <li>Bootstrap/Bulma</li>
         <li>JavaScript, React, GatsbyJS</li>
         <li>And growing...</li>
       </ul>
