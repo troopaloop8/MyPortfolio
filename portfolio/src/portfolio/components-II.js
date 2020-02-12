@@ -27,7 +27,7 @@ function Components2() {
             <p className="title has-text-black">Components 2</p>
             <p className="subtitle has-text-black">Used github API and components to display people I follow on github in vanilla JS using axios for API</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

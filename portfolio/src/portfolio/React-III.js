@@ -27,7 +27,7 @@ function React3() {
             <p className="title has-text-black">React-III</p>
             <p className="subtitle has-text-black">Using NASA APOD API, made a photo of the day site that displays pic and info also with a date selector. Styled with styled components.</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

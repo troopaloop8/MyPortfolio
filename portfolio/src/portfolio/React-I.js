@@ -27,7 +27,7 @@ function React1() {
             <p className="title has-text-black">React-I</p>
             <p className="subtitle has-text-black">Made a scoreboard app with react using useState hook</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

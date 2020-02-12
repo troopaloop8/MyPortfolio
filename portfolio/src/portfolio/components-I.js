@@ -25,9 +25,9 @@ function Components1() {
       <div class="tile is-parent">
           <article className="tile is-child box">
             <p className="title has-text-black">Components 1</p>
-            <p className="subtitle has-text-black">Created newsfeed via dummy data in vanilla JS</p>
+            <p className="subtitle has-text-black">Created newsfeed via dummy data in vanilla JS. Uses event Listeners for expanded text and menu.</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
         </div>

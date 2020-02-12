@@ -27,7 +27,7 @@ function ReactWars() {
             <p className="title has-text-black">React Wars</p>
             <p className="subtitle has-text-black">Using SWAPI, made site that displays characters in database on cards. Used react and axios to build it and reactstrap for styling</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

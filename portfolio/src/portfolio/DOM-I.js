@@ -27,7 +27,7 @@ function DOM1() {
             <p className="title has-text-black">DOM-I</p>
             <p className="subtitle has-text-black">Populated content and added style in website via DOM manipulation</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

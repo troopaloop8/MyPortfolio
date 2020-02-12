@@ -32,7 +32,7 @@ const AdvancedCSS = () => {
             </p>
             
               <Img 
-                fixed={data.image.childImageSharp.fixed} alt='Advanced-CSS-Thumbnail'
+                fluid={data.image.childImageSharp.fluid} alt='Advanced-CSS-Thumbnail'
                 />
             
           </article>

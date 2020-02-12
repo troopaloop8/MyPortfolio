@@ -27,7 +27,7 @@ function DOM2() {
             <p className="title has-text-black">DOM-II</p>
             <p className="subtitle has-text-black">Added several mouseover events via DOM and used some greensock animations</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

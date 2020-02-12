@@ -27,7 +27,7 @@ function AppliedJS() {
             <p className="title has-text-black">Applied JS Challenge</p>
             <p className="subtitle has-text-black">Made a newsfeed with components generated with dummy data. All content added via DOM. Made a carousel via components.</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>

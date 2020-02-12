@@ -32,22 +32,30 @@ const AboutPage = () => (
             <BuildWeek1 />
             <DOM1 />
           </div>
+          </div>
+          <div className='tile is-ancestor'>
           <div class="tile is-parent">
             <DOM2 />
             <Components1 />
             <Components2 />
           </div>
-          <div class="tile is-parent">
-            
           </div>
+          <div className='tile is-ancestor'>
           <div class="tile is-parent">
-            
-          </div>
+            <AppliedJS />
+            <React1 />
+            <React2 />
+          </div></div>
+          <div className='tile is-ancestor'>
+          <div class="tile is-parent">
+            <React3 />
+            <ReactWars />
+          </div></div>
           <div class="tile is-parent"></div>
           <div class="tile is-parent"></div>
           <div class="tile is-parent"></div>
         </div>
-      </div>
+      
       </div>
     </section>
   </div>

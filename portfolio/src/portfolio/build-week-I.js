@@ -28,7 +28,7 @@ function BuildWeek1() {
             Marketing Page for Dad Jokes App -- used Material UI for styling
           </p>
 
-          <Img fixed={data.image.childImageSharp.fixed} alt="" />
+          <Img fluid={data.image.childImageSharp.fluid} alt="" />
         </article>
       </div>
     </div>

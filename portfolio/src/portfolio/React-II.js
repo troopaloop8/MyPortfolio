@@ -27,7 +27,7 @@ function React2() {
             <p className="title has-text-black">React-II</p>
             <p className="subtitle has-text-black">Made an instagram clone that used dummy data. Heavy usage of props.</p>
             <Img 
-                fixed={data.image.childImageSharp.fixed} alt=''
+                fluid={data.image.childImageSharp.fluid} alt=''
                 />
           </article>
           </div>
