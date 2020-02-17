@@ -15,8 +15,8 @@ import AppliedJS from "../portfolio/Sprint-Applied-JS";
 import BuildWeek1 from "../portfolio/build-week-I";
 import Components1 from "../portfolio/components-I";
 import Components2 from "../portfolio/components-II";
+import ReactRouterMini from "../portfolio/React-Router-Mini";
 import "../sass/mystyles.css";
-import './main.css'
 
 const AboutPage = () => (
   <div>
@@ -26,36 +26,25 @@ const AboutPage = () => (
       <div className="hero-body">
         <div className="container">
           <h1 className="title">Projects:</h1>
-          <div className='tile is-ancestor'>
-          <div class="tile is-parent">
-            <AdvancedCSS />
-            <BuildWeek1 />
-            <DOM1 />
+          <div className="columns">
+            <div className="column">
+              <AdvancedCSS />
+              <DOM1 />
+              <Components1 />
+              <AppliedJS />
+              <React2 />
+              <ReactWars />
+            </div>
+            <div className="column">
+              <BuildWeek1 />
+              <DOM2 />
+              <Components2 />
+              <React1 />
+              <React3 />
+              <ReactRouterMini />
+            </div>
           </div>
-          </div>
-          <div className='tile is-ancestor'>
-          <div class="tile is-parent">
-            <DOM2 />
-            <Components1 />
-            <Components2 />
-          </div>
-          </div>
-          <div className='tile is-ancestor'>
-          <div class="tile is-parent">
-            <AppliedJS />
-            <React1 />
-            <React2 />
-          </div></div>
-          <div className='tile is-ancestor'>
-          <div class="tile is-parent">
-            <React3 />
-            <ReactWars />
-          </div></div>
-          <div class="tile is-parent"></div>
-          <div class="tile is-parent"></div>
-          <div class="tile is-parent"></div>
         </div>
-      
       </div>
     </section>
   </div>

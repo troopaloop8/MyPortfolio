@@ -1,9 +1,24 @@
+/*Local Imports*/
+@import './variables';
+@import './mixins';
 
 
 
 
-$baby-blue: #5bdafa;
+/* Custom Colors */
 
+$crimson: #8f3535;
+$baby-blue: #7d5bfa;
+
+/*modifications to Bulma Variables */
+
+$danger: $crimson;
 $link: $baby-blue;
 
+/* Import of Bulma CSS */
 @import "../../../../../../../mybulma/node_modules/bulma/bulma.sass";
+
+
+/*Custom CSS to Override Bulma CSS*/
+@import './main';
+@import './menu';

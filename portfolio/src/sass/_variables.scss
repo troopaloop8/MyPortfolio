@@ -1,0 +1,14 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 693px;
+
+// Small tablets (portrait view)
+$screen-md-min: 820px;
+
+// Tablets and small desktops
+$screen-lg-min: 900px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+//fixing this one weird breakpoint
+$screen-tween-min: 760px;

@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Menu from "../components/menu";
 // import SEO from "../components/seo";
 import "../sass/mystyles.css";
-import "./main.css";
 
 const BlogPage = ({ data }) => (
   <div>
