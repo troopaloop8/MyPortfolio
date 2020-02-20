@@ -1,0 +1,29 @@
+.menu-container {
+    background: #272727;
+    padding: 10px;
+    height: 60px;
+    z-index: 10000;
+    position: fixed;
+    padding-bottom: 20px!important;
+    top: 0px;
+    width: 100%;
+    
+    
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+   
+    
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    
+    
+}
